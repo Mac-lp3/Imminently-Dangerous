@@ -1,0 +1,36 @@
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+  background-color: #404040;
+}
+
+.landing-header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: linear-gradient(to right, #ff3333, #ff9933);
+}
+
+.header-content {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	min-height: 150px;
+}
+
+.title-text {
+	font-size: 50px;
+}
+
+.header-logo {
+	display: block;
+	background-image: url("../img/fist-logo.jpg");
+}
+
+.content-block {
+	display: block;
+}

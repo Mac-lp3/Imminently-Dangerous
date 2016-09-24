@@ -1,0 +1,25 @@
+{
+  "name": "Imminently Dangerous",
+  "version": "1.0.0",
+  "description": "City as a Service Hackathon project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mac",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^15.0.3",
+    "inert": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mac-lp3/Imminently-Dangerous.git"
+  }
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.1.0",
+    "nodemon": "^1.10.2"
+  }
+}
