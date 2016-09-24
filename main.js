@@ -31,15 +31,6 @@ server.register(require('inert'), (err) => {
 	    handler: require('./routes/index')
 	});
 
-	// Add the route
-	server.route({
-	    method: 'GET',
-	    path:'/hello', 
-	    handler: function (request, reply) {
-	        return reply('hello world');
-	    }
-	});
-
 	// Start the server
 	server.start((err) => {
 
