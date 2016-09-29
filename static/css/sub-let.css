@@ -15,15 +15,27 @@
 	background: linear-gradient(to right, #ff3333, #ff9933);
 }
 
-.header-content {
+.header-wrapper {
 	display: flex;
   	align-items: center;
   	justify-content: center;
   	min-height: 150px;
 }
 
+.header-content {
+
+}
+
 .title-text {
-	font-size: 50px;
+	font-weight: bold;
+	font-size: 64px;
+}
+
+.title-copy {
+	margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
 }
 
 .header-logo {
