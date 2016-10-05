@@ -44,6 +44,12 @@
 }
 
 .content-block {
+	margin-top: 10px;
+	display: block;
+}
+
+.content-block + .content-block {
+	margin-top: 20px;
 	display: block;
 }
 
