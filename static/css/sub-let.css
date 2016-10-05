@@ -59,6 +59,18 @@
 	text-align: justify;
 }
 
-.about-wrapper {
+.about-container {
 	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.about-title-wrapper {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.about-copy-wraper {
+
 }
