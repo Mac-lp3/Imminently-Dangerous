@@ -22,6 +22,10 @@
   	min-height: 150px;
 }
 
+.address-search {
+	width: 75% !important;
+}
+
 .header-content {
 
 }
