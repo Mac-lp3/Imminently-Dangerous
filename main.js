@@ -15,6 +15,7 @@ server.register(require('inert'), (err) => {
         throw err;
     }
 
+    // 
     server.route({  
   		method: 'GET',
   		path: '/static/{file*2}',
@@ -23,12 +24,18 @@ server.register(require('inert'), (err) => {
       			path: 'static/'
     		}
   		}
-	})
+	});
 
 	server.route({
 	    method: 'GET',
 	    path:'/', 
 	    handler: require('./routes/index')
+	});
+
+	server.route({
+		method: 'POST',
+		path: '/housingData',
+		handler: require('./routes/housingData')
 	});
 
 	// Start the server
